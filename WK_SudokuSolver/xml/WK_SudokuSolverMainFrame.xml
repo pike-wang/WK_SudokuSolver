@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="490,612" maxinfo="490,612" caption="0,0,0,32" opacity="220">
+<Font id="0" name="微软雅黑" size="12"  />
+<Font id="1" name="微软雅黑" size="12"  />
+  <VerticalLayout bkcolor="#FFCC95C0" bkcolor2="#FFDBD4B4" bkcolor3="#FF7AA1D2" >
+  
+	<HorizontalLayout height="32" bkcolor="#FFededef">
+	  <label text="标准数独计算器-WK" font="0" padding="8,2,0,0" />
+	  <VerticalLayout />
+	  <VerticalLayout width="32">
+	  <Button name="closebtn" tooltip="关闭" float="true" pos="0,0,32,32" normalimage=" file='image\close.png' " hotimage=" file='image\close_fill.png' " pushedimage=" file='image\close_fill.png' "/>
+	  </VerticalLayout>
+	</HorizontalLayout>
+	
+	<HorizontalLayout height="480">
+	  <SudokuPanel name="mainpanel" text="" float="true" pos="20,20,469,469" mode="0" /> 
+	</HorizontalLayout>
+	
+	<HorizontalLayout height="80">
+
+	  <Button name="start" text="计算" font="0" float="true" pos="20,20,200,60"   bkcolor="#FFebfbee"  />
+	  <Button name="clean" text="清空" font="0" float="true" pos="280,20,470,60"  bkcolor="#FFebfbee"  />
+	</HorizontalLayout>
+
+    <HorizontalLayout height="20">
+      <Progress name="Progress" text="" font="1" textpadding="4,2,0,0" foreimage="file='image\progress.png'" float="true" pos="0,0,490,20" min="0" max="100" value="0" hor="true" align="left" />
+	</HorizontalLayout>
+	
+
+
+  </VerticalLayout>
+	
+</Window>

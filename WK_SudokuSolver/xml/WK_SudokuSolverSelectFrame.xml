@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="151,151" opacity="220">
+<VerticalLayout bkcolor="FFd9a7c7" bkcolor2="FFfffcdc">
+  <SudokuPanel name="selectpanel" text="" float="true" pos="2,2,151,151" mode="1" /> 
+</VerticalLayout>
